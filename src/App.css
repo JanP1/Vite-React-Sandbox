@@ -34,6 +34,7 @@
 
 .first-block {
   width: 50vw;
+  min-width: 200px;
   height: 400px;
   margin: 10px;
   border-radius: 10px;
