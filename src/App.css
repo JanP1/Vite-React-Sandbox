@@ -24,6 +24,15 @@
   background-color: black;
 }
 
+.to-do-list {
+  width: auto;
+  height: 400px;
+  margin: 10px 10px 10px 10px;
+  background-color: #081d30;
+  border-radius: 10px;
+  border: #93b4ce 2px solid;
+}
+
 .grid-area-2 {
   grid-column: 2; /* Places in the center column */
   justify-self: center;

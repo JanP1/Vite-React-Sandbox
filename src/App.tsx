@@ -15,7 +15,7 @@ function App() {
       <>
       <div className='grid-area-1'>
         <div className='to-do-container'>
-
+          <div className='to-do-list'></div>
         </div>
       </div>
       <div className='grid-area-2'>
