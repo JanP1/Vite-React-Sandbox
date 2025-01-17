@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css'
+import ToDoList from './Components/ToDoList';
 
 function App() {
   const [isSettings, setIsSettings] = useState(false);
@@ -15,7 +16,9 @@ function App() {
       <>
       <div className='grid-area-1'>
         <div className='to-do-container'>
-          <div className='to-do-list'></div>
+          <ToDoList/>          
+          <ToDoList/>          
+          <ToDoList/>          
         </div>
       </div>
       <div className='grid-area-2'>

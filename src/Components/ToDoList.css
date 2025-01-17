@@ -1,0 +1,37 @@
+
+.to-do-list {
+    /* width: auto;
+    height: auto; */
+    min-height: 300px;
+    flex: 1 1 auto;
+    margin: 10px 20px 10px 10px;
+    background-color: #042429;
+    border-radius: 10px;
+    
+  }
+
+.to-do-list {
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.to-do-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(161, 188, 212);
+    grid-row: 1;
+    font-size: 30px;
+    user-select: none;
+    font-weight: bold;
+    
+}
+
+.test {
+
+    grid-row: 2;
+
+    background-color: black;
+    margin: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
