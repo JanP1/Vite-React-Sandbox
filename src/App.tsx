@@ -18,7 +18,11 @@ function App() {
         <div className='to-do-container'>
           <ToDoList/>          
           <ToDoList/>          
+          <ToDoList/>
+          <ToDoList/>
           <ToDoList/>          
+          <ToDoList/>          
+          <ToDoList/>
         </div>
       </div>
       <div className='grid-area-2'>
