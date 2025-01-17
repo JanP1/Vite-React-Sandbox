@@ -14,7 +14,7 @@
     grid-template-columns: 0 auto; /* 2 equal-width columns */
   }
 }
-grid-area-1 {
+.grid-area-1 {
   height: 100%;
   width: 100%;
   grid-column: 1;
@@ -48,7 +48,7 @@ grid-area-1 {
 }
 
 .first-block {
-  width: 50vw;
+  width: 40vw;
   min-width: 200px;
   height: 400px;
   margin: 10px;
