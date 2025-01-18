@@ -8,5 +8,5 @@ The following aspects are to be worked on:
 * <span style='color:lightgreen'>**Global values**</span> - how to manage state in a way that i can access values from specific parts of the app with as little rerendering as possible
 
 
-
-## 1. Navigation
+## Currently working on:
+### 1. Navigation
