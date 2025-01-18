@@ -10,3 +10,4 @@ The following aspects are to be worked on:
 
 ## Currently working on:
 ### 1. Navigation
+* for now basicly using props to jump from one view to another, to test comunication and navigation. The goal would be to do it through global context.
