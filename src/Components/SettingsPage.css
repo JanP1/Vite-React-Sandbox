@@ -1,0 +1,42 @@
+.settings-wrapper {
+  background-color: #00bf59;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-page-title {
+  user-select: none;
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+.settings-menu-button {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  background-color: #022636;
+  color: aliceblue;
+  border-radius: 10px;
+  user-select: none;
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+
+.settings-menu-button:hover {
+  background-color: #2eb7f1;
+  transform: scale(1.05);
+
+}
+
+.settings-menu-button:active {
+  transform: scale(0.98);
+}
+
