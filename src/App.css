@@ -35,16 +35,12 @@
   background-color: #031218;
   display: flex;
   flex-direction: column;
-
-
+  
   border-top: solid 20px #031218;
-
   overflow: auto;
 
   scrollbar-width: 5px; /* Options: auto, thin, none */
   scrollbar-color: #b6a9c5 #074058;
-  
-
 }
 
 .grid-area-2 {

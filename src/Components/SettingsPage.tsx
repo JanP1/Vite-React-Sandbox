@@ -1,8 +1,6 @@
-import { useState } from 'react'
 import './SettingsPage.css'
 
-export const SettingsPage = (props) => {
-  const [isSettings, setIsSettings] = useState();
+export const SettingsPage = () => {
 
 
   return (
