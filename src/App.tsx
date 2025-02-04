@@ -1,22 +1,19 @@
-import { useState } from 'react';
+//import { useState } from 'react';
 import './App.css'
 import ToDoList from './Components/ToDoList';
 import { SettingsPage } from './Components/SettingsPage';
+import { useVisibilityStore } from './Stores/store';
 
 function App() {
-  const [isSettings, setIsSettings] = useState(false);
-  
- function settingsActivated() {
-   setIsSettings(true);
- } 
 
+  const { isSettingsVisible, toggleSettings } = useVisibilityStore();
 
   return (
     <div className='app-container'>
-    {isSettings && (
-      <SettingsPage visibility={isSettings}/>
+    {isSettingsVisible && (
+      <SettingsPage />
     )}
-    {!isSettings && (
+    {!isSettingsVisible && (
       <>
       <div className='menu-container'>
         <div className='grid-area-1'>
@@ -33,7 +30,7 @@ function App() {
         <div className='grid-area-2'>
           <div className='first-block'>
 
-            <div className='menu-button' onClick={() => settingsActivated()}> Settings </div>
+            <div className='menu-button' onClick={() => toggleSettings()}> Settings </div>
             <div className='menu-button'> Containers </div>
             <div className='menu-button'> Notes </div>
             <div className='menu-button'> To-Do </div>
